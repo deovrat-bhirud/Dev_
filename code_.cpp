@@ -24,6 +24,8 @@ int main()
 	for ( int i =0; i < V.size(); i++ )
 	 {
 		if ( i % 2 == 1 ){
+		if ( Fib[i]>9)	V[j]=Fib[i]%10;
+		else
 		 V[j] = Fib[i];        
 	     j++;
 		}
